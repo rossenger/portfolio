@@ -1,0 +1,882 @@
+.jumbotron {
+    height: 219px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 700px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron .lead {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+  
+    padding-top: 7px;
+    padding-bottom: 45px;
+}
+
+.jumbotronContent {
+    max-width:
+}
+
+.navbar {
+    background-color: #414042 !important;
+}
+
+.navbar li {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+    text-decoration-skip-ink: none;
+}
+
+.navbar li a {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+
+}
+
+
+
+.navbar li a:hover {
+    text-decoration: none;
+    font-size: 18px;
+    color: #99D5CA !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    font-family: 'elza-narrow';
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    transition: .5s;
+}
+
+
+
+.collapse li .blue {
+    color: #99D5CA;
+}
+
+.backIcon {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon img {
+    width: 65px;
+    height: 24px;
+    margin-left: 123px;
+    position: absolute;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+    transition: all 200ms ease;
+}
+
+.previewImage {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 60px 30px;
+}
+
+.previewImage img {
+    width: 100%;
+    max-width: 781px;
+    height: auto;
+    
+}
+
+.projectOverviewContainer {
+    padding-left: 100px;
+}
+
+.projectOverview {
+    max-width: 1034px;
+}
+
+.projectSummary h2, .problem h2, .solution h2 {
+    text-decoration: none;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 82.99%;
+    color: #414042;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #99D5CA;
+    text-decoration-skip-ink: none;
+    padding-bottom: 10px;
+    
+}
+
+.projectSummary p {
+    width: 608px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    padding-bottom: 12px;
+}
+
+.problem p, .solution p {
+    width: 489px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    padding-bottom: 12px;
+}
+
+
+.projectSummary2 h2 {
+    text-decoration: none;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 82.99%;
+    color: #414042;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #99D5CA;
+    text-decoration-skip-ink: none;
+    padding-bottom: 10px;
+
+}
+
+.projectSummary2 p {
+    width: 608px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    
+}
+
+.projectSummary2 p {
+    width: 288px;
+}
+
+.projectSummary2 span {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #414042;
+}
+
+#viewPrototype {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#viewPrototypeContainerDesktop {
+    padding-top: 60px;
+}
+
+#viewPrototypeContainerMobile {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+#viewPrototype {
+    background-color: #99D5CA;
+    color: #414042;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'elza-narrow';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 93.5%;
+    text-align: center;
+}
+
+#viewPrototype:hover {
+    background-color: #414042;
+    color: #99D5CA;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'elza-narrow';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 93.5%;
+    text-align: center;
+    transition: .5s;
+}
+
+#viewPrototypeContainerDesktop a, #viewPrototypeContainerMobile a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.h2Container {
+   display: flex;
+   justify-content: center;
+}
+
+h2 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 82.99%;
+    color: #414042;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #99D5CA;
+    text-decoration-skip-ink: none;
+    padding-bottom: 20px;
+}
+
+.designProcessGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.designProcessGraphic {
+    width: 100%;
+    max-width: 823px;
+    height: auto;
+}
+
+.designProcessContainer {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#research {
+    position: absolute;
+    transform: translateY(-100px);
+}
+
+.researchGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.researchGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.pContainer {
+    max-width: 608px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 82.99%;
+    color: #414042;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.pContainer ul {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+}
+
+.pContainer li {
+    padding-bottom: 20px;
+}
+
+.normalList {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+}
+
+.normalList span {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 225px;
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+    max-width: 1034px;
+    height: auto;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+    height: 50vh;
+}
+
+#definition {
+    position: absolute;
+    transform: translateY(-100px);
+}
+
+.definitionGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.definitionGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 45px 100px 45px 100px;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-width: 1034px;
+    height: auto;
+}
+
+.boldItalic {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #414042;
+    
+}
+
+.insightProblem {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+
+.ideationGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 195px;
+}
+
+.prototypeGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 237px;
+}
+
+.prototypeGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    width: 1034px;
+    height: 487px;
+}
+
+.prototype1 {
+    width: 788px;
+    height: 482px;
+}
+
+.prototype1 {
+    width: 246px;
+    height: 487px;
+}
+
+.testingGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 237px;
+}
+
+.testingGraphic {
+    width: 100%;
+    max-width: 608px;
+    height: auto;
+}
+
+.bold span {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #414042;
+}
+
+.prototype3 {
+    width: 791px;
+    height: 482px;
+}
+
+.prototype4 {
+    width: 243px;
+    height: 486px;
+}
+
+.prototype5 {
+    width: 799px;
+    height: 485px;
+}
+
+.prototype6 {
+    width: 238px;
+    height: 497px;
+}
+
+.prototype7 {
+    width: 791px;
+    height: 481px;
+}
+
+.prototype8 {
+    width: 243px;
+    height: 482px;
+}
+
+.futureOpportunities {
+    padding-top: 250px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+  }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+}
+
+.topIcon {
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.topIcon img {
+    width: 46px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#top {
+    scroll-behavior: auto;
+}
+
+footer {
+    background-color: #414042;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    
+}
+
+
+@media only screen and (max-width: 875px) {
+
+.jumbotron .display-4 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 629px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 46px;
+}
+
+.jumbotron .lead {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 7px;
+}
+
+.backIcon {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon img {
+    width: 65px;
+    height: 24px;
+    margin-left: 24px;
+    position: absolute;
+}
+
+.navbar-toggler {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-nav .nav-item {
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+
+.projectOverviewContainer {
+    padding-left: 80px;
+}
+
+.projectSummary, .projectSummary2 {
+    padding-bottom: 30px;
+}
+
+.problem p, .solution p {
+    width: 608px;
+}
+
+.designProcessGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    width: 634px;
+    height: 299px;
+}
+
+.prototype1 {
+    width: 483px;
+    height: 295px;
+}
+
+.prototype2 {
+    width: 151px;
+    height: 299px;
+    
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.jumbotron {
+    height: 219px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.jumbotron .display-4 {
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 82.99%;
+    color: #414042;
+    width: 350px;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 74px;
+}
+
+.jumbotron .lead {
+    font-family: 'elza-narrow';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 93.49%;
+    color: #414042;
+    text-shadow: 0px 4px 4px rgba(65, 64, 66, 0.25);
+    padding-top: 4px;
+}
+
+
+.backIcon {
+    display: flex;
+    align-items: center;
+}
+
+.backIcon img {
+    width: 65px;
+    height: 24px;
+    margin-left: 24px;
+    position: absolute;
+}
+
+.container .navbar-toggler {
+    color: white;
+}
+
+.navbar-toggler {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white !important;
+}
+
+.navbar-nav .nav-item {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.navbar li a:active {
+    text-decoration-skip-ink: none;
+}
+
+.projectOverviewContainer {
+    padding-left: 0px;
+}
+
+.projectSummary p {
+    width: 340px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    padding-bottom: 12px;
+}
+
+.projectSummary2 p {
+    width: 340px;
+    font-family: 'elza-narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #414042;
+    
+}
+
+.projectSummary2 p {
+    width: 340px;
+}
+
+.projectSummary2 {
+    padding-bottom: 30px;
+}
+
+.projectOverview .problem p, .projectOverview .solution p {
+    width: 340px;
+}
+
+.projectSummary {
+    padding-bottom: 30px;
+}
+
+.designProcessGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.researchGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.pContainer {
+    max-width: 608px;
+    margin: 0 auto;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 180px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+}
+
+.definitionGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 45px 24px 45px 24px;;
+}
+
+.ideationGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.prototypeGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    width: 357px;
+    height: 168px;
+}
+
+.prototype1 {
+    width: 272px;
+    height: 166px;
+}
+
+.prototype2 {
+    width: 85px;
+    height: 168px;
+    
+}
+
+.testingGraphicContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+}
